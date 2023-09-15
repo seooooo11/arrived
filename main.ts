@@ -1,6 +1,9 @@
 input.onButtonPressed(Button.A, function () {
     control.reset()
 })
+input.onGesture(Gesture.Shake, function () {
+    basic.showString("Hello!")
+})
 input.onButtonPressed(Button.B, function () {
     basic.showNumber(최종도착시간)
 })
