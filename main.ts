@@ -1,13 +1,6 @@
 input.onButtonPressed(Button.A, function () {
     control.reset()
 })
-input.onGesture(Gesture.Shake, function () {
-    basic.showString("Hello!")
-})
-input.onButtonPressed(Button.AB, function () {
-    basic.showNumber(0)
-    basic.showNumber(1)
-})
 input.onButtonPressed(Button.B, function () {
     basic.showNumber(최종도착시간)
 })
@@ -40,11 +33,11 @@ basic.forever(function () {
             basic.pause(600)
             if (카운트 == 1) {
                 basic.showLeds(`
-                    . # . # .
-                    . # # # #
-                    # . . . #
-                    . # . # .
-                    . . # # .
+                    . . . . .
+                    . . . . .
+                    . . . . .
+                    . . . . .
+                    # . . . .
                     `)
             } else if (카운트 == 2) {
                 basic.showLeds(`
