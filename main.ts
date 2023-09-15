@@ -8,6 +8,7 @@ input.onButtonPressed(Button.AB, function () {
     basic.showNumber(0)
     basic.showNumber(123)
     basic.showNumber(13134)
+
 })
 input.onButtonPressed(Button.B, function () {
     basic.showNumber(최종도착시간)
