@@ -39,11 +39,11 @@ basic.forever(function () {
             basic.pause(600)
             if (카운트 == 1) {
                 basic.showLeds(`
-                    . . . . .
-                    . . . . .
-                    . . . . .
-                    . . . . .
-                    # . . . .
+                    . # . # .
+                    . # # # #
+                    # . . . #
+                    . # . # .
+                    . . # # .
                     `)
             } else if (카운트 == 2) {
                 basic.showLeds(`
