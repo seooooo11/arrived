@@ -5,7 +5,9 @@ input.onGesture(Gesture.Shake, function () {
     basic.showString("Hello!")
 })
 input.onButtonPressed(Button.AB, function () {
+    let 시간 = 0
     basic.showNumber(0)
+    basic.showString("" + (시간))
 })
 input.onButtonPressed(Button.B, function () {
     basic.showNumber(최종도착시간)
